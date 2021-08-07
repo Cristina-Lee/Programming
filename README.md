@@ -1,7 +1,7 @@
 # Programming
 Programming practice set
-# web
-## GreenTea
+# web:project
+> GreenTea
 1. clear fix hack ---> .clearfix 
 2. html---> how to send email?
 3. transition --->
@@ -10,4 +10,4 @@ Programming practice set
 * icon: font awesome
 * color: coolor
 * character: google fonts
-* 静态网站托管云平台:snetlify
+* 静态网站托管云平台:netlify
