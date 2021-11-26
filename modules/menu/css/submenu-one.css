@@ -1,0 +1,37 @@
+/* basic styls */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+ul.menu {
+    background-color: thistle;
+}
+
+/* 清除浮动，自适应包含所有浮动元素 */
+/* ul.menu::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+/* 二级菜单简单实现 */
+ul.menu li {
+    float: left;
+    width: 100px;
+}
+
+ul.sub-menu {
+    display: none;
+}
+
+ul.menu li:hover ul.sub-menu {
+    display: block;
+}
